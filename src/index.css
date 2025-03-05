@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-poppins bg-light text-dark;
+}
+
+.nav-link {
+  @apply relative cursor-pointer hover:text-primary transition-colors duration-300;
+}
+
+.nav-link::after {
+  @apply content-[''] absolute bg-primary h-[2px] w-0 left-0 -bottom-1 rounded-xl transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-8 relative inline-block;
+}
+
+.section-title::after {
+  @apply content-[''] absolute bg-primary h-1 w-1/2 left-0 -bottom-2 rounded-xl;
+}
+
+.skill-card {
+  @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-l-4 border-primary;
+}
+
+.project-card {
+  @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2 overflow-hidden;
+}
+
+.project-card img {
+  @apply transition-all duration-500;
+}
+
+.project-card:hover img {
+  @apply scale-110;
+}
+
+.contact-input {
+  @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary;
+}
