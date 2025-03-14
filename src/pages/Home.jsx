@@ -162,12 +162,12 @@ const Home = () => {
             {[
               {
                 title: 'Project 1',
-                description: 'A brief description of your first project.',
+                description: 'Its 4 Me is a time management app that helps users create their ideal daily schedule and track actual activities. It visually compares planned vs. actual time usage, highlighting discrepancies and offering personalized suggestions to stay on track and achieve goals.',
                 image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
               },
               {
                 title: 'Project 2',
-                description: 'A brief description of your second project.',
+                description: 'A personal portfolio showcasing my skills, projects, and experience as a Software Development Engineer.',
                 image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
               }
             ].map((project, index) => (

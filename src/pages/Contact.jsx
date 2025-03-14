@@ -92,7 +92,7 @@ const Contact = () => {
               <h3 className="font-semibold text-lg mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/DevinandanaS" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-gray-800 text-white p-3 rounded-full hover:bg-gray-700 transition-colors"

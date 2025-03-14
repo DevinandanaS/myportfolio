@@ -8,20 +8,20 @@ const Projects = () => {
     {
       id: 1,
       title: 'Project One',
-      description: 'A brief description of your first project. You can update this with details about your actual project later.',
+      description: ' Its 4 Me is a time management app that helps users create their ideal daily schedule and track actual activities. It visually compares planned vs. actual time usage, highlighting discrepancies and offering personalized suggestions to stay on track and achieve goals.',
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      technologies: ['React', 'Node.js', 'MongoDB'],
-      github: 'https://github.com/yourusername/project1',
-      demo: 'https://project1-demo.com',
+      technologies: ['React', 'Vite', 'TypeScript'],
+      github: 'https://github.com/DevinandanaS/its-4-me',
+      
     },
     {
       id: 2,
       title: 'Project Two',
-      description: 'A brief description of your second project. You can update this with details about your actual project later.',
+      description: 'A personal portfolio showcasing my skills, projects, and experience as a Software Development Engineer.',
       image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      technologies: ['JavaScript', 'HTML/CSS'],
-      github: 'https://github.com/yourusername/project2',
-      demo: 'https://project2-demo.com',
+      technologies: ['ReactJS', 'TailwindCSS','TypeScript'],
+      github: 'https://github.com/DevinandanaS/myportfolio',
+     
     },
     {
       id: 3,
@@ -32,15 +32,7 @@ const Projects = () => {
       github: 'https://github.com/yourusername/project3',
       demo: 'https://project3-demo.com',
     },
-    {
-      id: 4,
-      title: 'Project Four',
-      description: 'A brief description of your fourth project. You can update this with details about your actual project later.',
-      image: 'https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      technologies: ['React', 'Firebase'],
-      github: 'https://github.com/yourusername/project4',
-      demo: 'https://project4-demo.com',
-    },
+   
   ];
 
   return (
